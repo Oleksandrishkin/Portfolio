@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle, keyframes } from "styled-components";
 import styled from "styled-components";
 import  heroBackground  from "./images/dgeg2dp-a04e53c1-1c1a-4739-b54a-09803493680d.jpg";
 export const Container = styled.div`
@@ -25,33 +25,37 @@ export const Container = styled.div`
         margin-bottom: 40px;
     }
 `;
-
+const fadeIn = keyframes`
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+`;
 export const GlobalStyle = createGlobalStyle`
     body {
- 
-        margin: 0;
+ background-color:rgba(0, 0, 0, 0.907);
+      margin: 0;
         font-family: 'Montserrat Alternates', 'Montserrat';
         font-weight: 500;
         font-style: normal;
         line-height: normal;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        
-padding-bottom: 210px;
-padding-top: 170px;
-
-width: auto;
-height:400px;
-
-background-image: linear-gradient(
-  to left,
-  rgba(47, 48, 58, 0.4),
-  rgba(0, 0, 0, 0.907)
-),
-url(${heroBackground});
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
+        padding-bottom: 210px;
+        padding-top: 170px;
+        width: auto;
+        height:580px;
+        background-image: linear-gradient(
+          to left,
+          rgba(47, 48, 58, 0.4),
+          rgba(0, 0, 0, 0.907)
+        ),
+        url(${heroBackground});
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
   
     code {

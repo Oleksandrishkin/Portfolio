@@ -1,7 +1,6 @@
 import styled from "styled-components";
-
-export const HeroH1 = styled.h1`
-    color: white;
+export const H1Who = styled.h1`
+ color: white;
     text-align: center;
     font-size: 2.5rem; /* Збільшуємо розмір шрифту */
     font-weight: bold; /* Робимо текст жирним */
@@ -18,9 +17,8 @@ export const HeroH1 = styled.h1`
     @media screen and (max-width: 480px) {
         font-size: 1.5rem; /* Зменшуємо для мобільних пристроїв */
     }
-`;
-
-export const HeroH2 = styled.h2`
+`
+export const WhoP = styled.h2`
     color: white;
     text-align: center;
     font-size: 2.5rem; /* Зменшуємо розмір шрифту */
@@ -40,28 +38,24 @@ export const HeroH2 = styled.h2`
     }
 `;
 
-export const HeroUl = styled.ul`
+export const WhoUl = styled.ul`
     align-items: stretch;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0; /* Забираємо внутрішні відступи від списку */
 `;
-
-export const HeroContainer = styled.div`
-    max-width: 1000px;
-    margin: 0 auto; /* Робимо блок по центру */
-    padding: 0 20px; /* Додаємо зовнішні відступи для адаптивності */
-
-    @media screen and (max-width: 1028px) {
-        padding: 0 15px; /* Зменшуємо зовнішні відступи для планшетів */
-    }
-
-    @media screen and (max-width: 768px) {
-        padding: 0 10px; /* Ще більше зменшуємо для планшетів */
-    }
-
-    @media screen and (max-width: 480px) {
-        padding: 0 5px; /* Зменшуємо для мобільних пристроїв */
-    }
+export const AvatarImage = styled.img`
+width: 200px;
+height: 200px;
+    border-radius: 50%; /* Круглий аватар */
+    display: block;
+    margin: 0 auto; /* Центрування зображення */
+    max-width: 100%; /* Зображення не може виходити за межі контейнера */
+    height: auto; /* Зберігає пропорції */
+`;
+export const SectionWho = styled.section`
+    position: relative; /* Встановлюємо позицію */
+    top: 500px; /* Опускаємо секцію на 200px */
+    text-align: center; /* Текст по центру */
 `;
