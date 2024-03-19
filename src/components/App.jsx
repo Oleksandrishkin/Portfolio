@@ -1,9 +1,15 @@
-import { Header } from "./Header"
+import { Hero } from "components/Hero";
+import { GlobalStyle } from "../GlobalStyle";
+import { Header } from "./Header";
+
 
 export const App = () => {
   return (
-   <>
-   <Header/>
-</>
+    <>
+
+<Header/>
+      <Hero/>
+      <GlobalStyle />
+    </>
   );
 };

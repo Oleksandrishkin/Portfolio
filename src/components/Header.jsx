@@ -1,9 +1,11 @@
 import { Logo } from './Header.styled'
-import oleksandrishkin from './image.png'
+import oleksandrishkin from '../images/1127861_original-removebg-preview.svg'
 export const Header = ()=>{
     return(
-        <header>
-            <Logo src={oleksandrishkin}></Logo>
-        </header>
+   <>
+    <Logo src={oleksandrishkin}></Logo>
+   </>
+           
+        
     )
 }
