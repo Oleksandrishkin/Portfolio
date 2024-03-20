@@ -1,16 +1,27 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.7acaea2f.css",
-    "main.js": "/Portfolio/static/js/main.e286b4f5.js",
+    "main.js": "/Portfolio/static/js/main.8835cc89.js",
+    "static/media/Без имени - Google Chrome 20.03.2024 12_54_20.png": "/Portfolio/static/media/Без имени - Google Chrome 20.03.2024 12_54_20.381f005cfcc1d6257cb4.png",
+    "static/media/Web Studio - Google Chrome 20.03.2024 12_53_32.png": "/Portfolio/static/media/Web Studio - Google Chrome 20.03.2024 12_53_32.81f0c744e70a6e9fc4dd.png",
+    "static/media/Без имени - Google Chrome 20.03.2024 12_53_49.png": "/Portfolio/static/media/Без имени - Google Chrome 20.03.2024 12_53_49.4dd09c698245da854069.png",
+    "static/media/React App - Google Chrome 20.03.2024 12_54_08.png": "/Portfolio/static/media/React App - Google Chrome 20.03.2024 12_54_08.c4a3bcbb0a7942146edc.png",
+    "static/media/Без имени - Google Chrome 20.03.2024 12_53_12.png": "/Portfolio/static/media/Без имени - Google Chrome 20.03.2024 12_53_12.2608c852f0a4e9bf1782.png",
+    "static/media/Page title - Google Chrome 20.03.2024 12_55_21.png": "/Portfolio/static/media/Page title - Google Chrome 20.03.2024 12_55_21.bc52c53e515437d5b675.png",
     "static/media/dgeg2dp-a04e53c1-1c1a-4739-b54a-09803493680d.jpg": "/Portfolio/static/media/dgeg2dp-a04e53c1-1c1a-4739-b54a-09803493680d.00f9920f587af94fc336.jpg",
     "static/media/photo_2024-01-01_00-39-00.jpg": "/Portfolio/static/media/photo_2024-01-01_00-39-00.b183c1deaa011c7ce904.jpg",
+    "static/media/image_5dc568cd5e8599.97626059.jpg": "/Portfolio/static/media/image_5dc568cd5e8599.97626059.23a639c311308ec4b834.jpg",
+    "static/media/icons8-telegram-app.svg": "/Portfolio/static/media/icons8-telegram-app.ab12034abe79dace0f9b8a23715db204.svg",
     "static/media/1127861_original-removebg-preview.svg": "/Portfolio/static/media/1127861_original-removebg-preview.35fdf96c027335104391c8dde5c421f2.svg",
     "index.html": "/Portfolio/index.html",
+    "static/media/icons8-instagram.svg": "/Portfolio/static/media/icons8-instagram.0c2dbbd72bcf8781f0bd5bdd6cf1acf3.svg",
+    "static/media/icons8-tiktok.svg": "/Portfolio/static/media/icons8-tiktok.c904e9f04714dbdff9d942e91304785b.svg",
+    "static/media/icons8-facebook.svg": "/Portfolio/static/media/icons8-facebook.2be878320252546e698b345497542b2a.svg",
     "main.7acaea2f.css.map": "/Portfolio/static/css/main.7acaea2f.css.map",
-    "main.e286b4f5.js.map": "/Portfolio/static/js/main.e286b4f5.js.map"
+    "main.8835cc89.js.map": "/Portfolio/static/js/main.8835cc89.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.e286b4f5.js"
+    "static/js/main.8835cc89.js"
   ]
 }
