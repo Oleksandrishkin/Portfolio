@@ -1,6 +1,6 @@
 import { Container } from "GlobalStyle"
 
-import { SectionSkill, SkillH1, SkillLink, SkillP, SkillUl, UlLink } from "./MySkill.styled"
+import { SectionSkill, SkillH1, SkillLink, SkillP, SkillUl, UlLink } from "./Css/MySkill.styled"
 export const MySkill = ()=>{
     return(
         <SectionSkill>
@@ -32,6 +32,12 @@ Java Script
 </SkillLink>
 <SkillLink href="https://react.dev/">
 React
+  
+    
+
+</SkillLink>
+<SkillLink href="https://www.typescriptlang.org/">
+Type Script
   
     
 

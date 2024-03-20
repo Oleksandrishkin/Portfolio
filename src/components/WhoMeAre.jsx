@@ -1,6 +1,6 @@
 import { Container } from 'GlobalStyle'
 import avatar from '../images/photo_2024-01-01_00-39-00.jpg'
-import { AvatarImage, H1Who, SectionWho, WhoP, WhoUl } from './WhoMeAre.styled'
+import { AvatarImage, H1Who, SectionWho, WhoP, WhoUl } from './Css/WhoMeAre.styled'
 export const WhoMeAre = ()=>{
     return(
         <>

@@ -3,6 +3,9 @@ import { GlobalStyle } from "../GlobalStyle";
 import { Header } from "./Header";
 import { WhoMeAre } from "./WhoMeAre";
 import { MySkill } from "./MySkill";
+import { MyRecentWork } from "./MyRecentWork";
+import { Collaborated } from "./Collaborated";
+import { Footer } from "./Footer";
 
 
 export const App = () => {
@@ -13,6 +16,9 @@ export const App = () => {
       <Hero/>
       <WhoMeAre/>
       <MySkill/>
+      <MyRecentWork/>
+      <Collaborated/>
+      <Footer/>
       <GlobalStyle />
     </>
   );
